@@ -5,7 +5,7 @@ class Saved extends React.Component {
     render(){
         return(
             <div>
-                <p>Goodbye</p>
+                <h1>Saved</h1>
             </div>
         )
     }
