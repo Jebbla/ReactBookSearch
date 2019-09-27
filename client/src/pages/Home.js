@@ -3,12 +3,12 @@ import Jumbotron from "../components/Jumbotron";
 import Card from "../components/Card";
 import Form from "../components/Form";
 import Book from "../components/Book";
-// import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
-class Search extends Component {
+class Home extends Component {
   state = {
     books: [],
     q: "",
@@ -109,10 +109,10 @@ class Search extends Component {
             </Card>
           </Col>
         </Row>
-        {/* <Footer /> */}
+        <Footer />
       </Container>
     );
   }
 }
 
-export default Search;
+export default Home;
