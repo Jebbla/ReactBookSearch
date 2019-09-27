@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 export default {
     search: function (query) {
@@ -17,4 +17,4 @@ export default {
     getBook: function (id) {
         return axios.get("/api/books/" + id);
     }
-}; 
+};
